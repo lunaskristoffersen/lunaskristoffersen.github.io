@@ -14,10 +14,6 @@ html {
   background-position: 0 0, 15px 15px;
 }
 
-header {
-	position: sticky;
-}
-
 hero {
   display: flex;
   flex-direction: column;
@@ -188,4 +184,5 @@ nav label:before {
 	}  
   
 }
+
 
