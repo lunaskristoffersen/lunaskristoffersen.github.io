@@ -726,7 +726,7 @@ h3 {
       position: relative;
    }
 	nav ul {
-		transform: translateY(-9rem);
+		transform: translateY(-10rem);
       transition: all .5s;
       position: absolute;
       width: 100%;
@@ -756,12 +756,16 @@ h3 {
 	nav label{
     transform: translateY(-9rem);
       display: block;
+      margin-top: 5px;
+      margin-left: 10px;
    }  
 	nav input[type="checkbox"]:checked + ul li:nth-child(1){
 		transform: translateY(-9rem);
     background: #777; 
 		color: #fff;
 	}  
+
+  
   
 }
 
