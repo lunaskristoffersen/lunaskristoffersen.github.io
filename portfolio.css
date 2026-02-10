@@ -752,11 +752,7 @@ h3 {
 		width: 100%;
       transition: all .5s;
 	}
-  nav input[type="checkbox"]:not(checked) + ul  {
-		transform: translateY(-50rem);
-		width: 100%;
-      transition: all .5s;
-	}
+  
 	nav label{
     transform: translateY(-9rem);
       display: block;
