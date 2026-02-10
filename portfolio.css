@@ -277,7 +277,6 @@ nav label:before {
 showcase {
   display: flex;
   width: 100%;
-  display: inline-block;
 }
 
 div {
