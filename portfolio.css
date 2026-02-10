@@ -4,9 +4,6 @@ html {
  padding:0;
   margin:0 auto 0 auto;
   background-image: linear-gradient(to top, #141C4B ,#080719);      
-  background-size:
-  100% 100%;
-  background-position: 0 0, 15px 15px;
   background-repeat: no-repeat;
 background-attachment: fixed;
 }
@@ -31,7 +28,7 @@ hero {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 80%;
+  height: 100%;
   width: 100%;
 }
 
@@ -52,26 +49,28 @@ iconer {
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 40px;
+    gap: 20px;
+    width: 70%;
 }
 
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: -30px;
-    padding-bottom: 30px;
-    width: 200px;
+    margin-bottom: 0px;
+    width: 150px;
 }
 
 wrap {
   display: flex;
-  width: 70%;
+  width: 100%;
+  justify-content: center;
 }
 
 .svg {
   height: 120px;
   width: auto;
-  margin-top: 30px;
+  margin-top: 5px;
   margin-bottom: 10px;
 }
 
@@ -84,7 +83,6 @@ h1 {
   margin: 0;
   padding: 0;
   margin-bottom: -10px;
-  margin-top: 180px;
 }
 
 h2 {
@@ -100,14 +98,14 @@ h2 {
 h4 {
   font-family: 'roboto';
   font-weight: 400;
-  font-size: 46px;
+  font-size: 36px;
   color: #fff;
   text-align: center;
   margin: 0;
   padding: 0;
-  width: 50%;
+  width: 70%;
   line-height: 45px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 h3 {
@@ -127,14 +125,14 @@ om {
   justify-content: center;
   font-weight: 300;
   font-style: italic;
-  font-size: 64px;
+  font-size: 54px;
   color: #fff;
   text-align: center;
   margin-top: 0px;
   padding: 0;
   margin: 0;
-  width: 70vw;
-  line-height: 70px;
+  width: 80%;
+  line-height: 60px;
 }
 
 .button {
@@ -145,12 +143,12 @@ om {
   color: rgb(255, 255, 255);
   padding: 14px 28px;
   font-weight: 200;
-  font-size: 28px;
+  font-size: 26px;
    align-items: center;
   justify-content: center;
   cursor: pointer;
   border-radius: 30px;
-  height: 30px;
+  height: 20px;
   width: 300px;
   text-decoration: none;
 }
@@ -579,13 +577,13 @@ h3 {
   justify-content: center;
   font-weight: 300;
   font-style: italic;
-  font-size: 34px;
+  font-size: 30px;
   color: #fff;
   text-align: center;
   margin-top: 0px;
   padding: 0;
   margin: 0;
-  width: 80vw;
+  width: 95%;
   line-height: 35px;
 }
 
@@ -630,7 +628,7 @@ h3 {
      width: 100%;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
     justify-content: center;
     margin-bottom: 30px;
 }
@@ -641,6 +639,7 @@ iconer {
     justify-content: center;
     padding-bottom: 20px;
     gap: 20px;
+    width: 100%;
 }
 
 section {
@@ -655,6 +654,7 @@ section {
 wrap {
   display: flex;
   width: 100%;
+  justify-content: center;
 }
 
 .svg {
@@ -667,7 +667,7 @@ wrap {
 h1 {
   font-family: 'roboto';
   font-weight: 200;
-  font-size: 28px;
+  font-size: 24px;
   color: #fff;
   text-align: center;
   margin: 0;
@@ -688,7 +688,7 @@ h2 {
 h4 {
   font-family: 'roboto';
   font-weight: 400 !important;
-  font-size: 30px !important;
+  font-size: 28px !important;
   color: #fff;
   text-align: center;
   margin: 0;
@@ -708,19 +708,22 @@ h3 {
 
 }
 
-@media only screen and (max-width: 1150px){
+@media only screen and (max-width: 1000px){
 
   h4 {
   font-family: 'roboto';
-  font-weight: 500;
-  font-size: 44px;
+  font-weight: 400;
+  font-size: 34px;
   color: #fff;
   text-align: center;
   margin: 0;
   padding: 0;
   width: 80%;
+  line-height: 35px;
 }
   
+
+
    nav {
     transform: translateY(150px);
       position: relative;
@@ -789,14 +792,8 @@ værktøjer {
 }
 
 body {
-  background-image: linear-gradient(to top, #141c4b00 ,#08071900);  
+  background-image: none;
   margin: 0;
 }
   
-}
-
-@media only screen and (max-width: 1714px){
-  wrap {
-    width: 80%;
-  }
 }
