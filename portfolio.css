@@ -6,7 +6,7 @@ html {
   background-image: linear-gradient(to top, #141C4B ,#080719);      
   background-repeat: no-repeat;
 background-attachment: fixed;
-height: 100%;
+height: 100dvh;
 }
 
 .sticky {
