@@ -726,7 +726,7 @@ h3 {
       position: relative;
    }
 	nav ul {
-		transform: translateY(-10rem);
+		transform: translateY(-50rem);
       transition: all .5s;
       position: absolute;
       width: 100%;
@@ -748,9 +748,8 @@ h3 {
 		border-bottom: solid 1px #5c638a;
 	} 
 	nav input[type="checkbox"]:checked + ul  {
-		transform: translateY(-45rem);
+		transform: translateY(-13rem);
 		width: 100%;
-		background: #999;   
       transition: all .5s;
 	}
 	nav label{
@@ -765,7 +764,27 @@ h3 {
 		color: #fff;
 	}  
 
-  
+  hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+værktøjer {
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+}
   
 }
 
