@@ -785,6 +785,12 @@ værktøjer {
     width: 100%;
     flex-wrap: wrap;
     align-content: center;
+    margin-bottom: 40px;
+}
+
+body {
+  background-image: linear-gradient(to top, #141c4b00 ,#08071900);  
+  margin: 0;
 }
   
 }
