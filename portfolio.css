@@ -4,9 +4,9 @@ html {
  padding:0;
   margin:0 auto 0 auto;
   background-image: linear-gradient(to top, #141C4B ,#080719);      
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 background-attachment: fixed;
-height: 100dvh;
+height: 100%;
 }
 
 .sticky {
