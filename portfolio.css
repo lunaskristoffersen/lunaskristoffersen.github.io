@@ -7,6 +7,7 @@ html {
   background-repeat: repeat;
 background-attachment: fixed;
 min-height: 100vh;
+height: 100%;
 }
 
 .sticky {
@@ -22,6 +23,8 @@ body {
   background-image: radial-gradient(rgb(43, 54, 183) 0.45px, rgb(0, 0, 0, 0) 0.45px); background-size: 9px 9px;
   margin: 0;
   min-height: 100vh;
+  height: 100%;
+  background-attachment: fixed;
 }
 
 hero {
