@@ -6,9 +6,7 @@ html {
   background-image: linear-gradient(to top, #141C4B ,#080719);      
   background-repeat: repeat;
 background-attachment: fixed;
-height: 100%;
-min-height: auto;
-max-height: auto;
+height: 100dvh;
 }
 
 .sticky {
@@ -23,6 +21,7 @@ max-height: auto;
 body {
   background-image: radial-gradient(rgb(43, 54, 183) 0.45px, rgb(0, 0, 0, 0) 0.45px); background-size: 9px 9px;
   margin: 0;
+  height: 100dvh;
 }
 
 hero {
@@ -747,7 +746,7 @@ h3 {
 		border-bottom: solid 1px #5c638a;
 	} 
 	nav input[type="checkbox"]:checked + ul  {
-		transform: translateY(-13rem);
+		transform: translateY(-10rem);
 		width: 100%;
       transition: all .5s;
 	}
@@ -758,11 +757,6 @@ h3 {
       margin-top: 5px;
       margin-left: 10px;
    }  
-	nav input[type="checkbox"]:checked + ul li:nth-child(1){
-		transform: translateY(-9rem);
-    background: #777; 
-		color: #fff;
-	}  
 
   hero {
   display: flex;
