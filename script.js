@@ -24,3 +24,25 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 };
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Define the mobile breakpoint (e.g., 768px)
+    if (window.innerWidth > 768) {
+        // Select images you want to lazy load
+        const images = document.querySelectorAll('img.svg');
+        images.forEach(img => {
+            img.setAttribute('loading', 'lazy');
+        });
+    }
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Define the mobile breakpoint (e.g., 768px)
+    if (window.innerWidth > 768) {
+        // Select images you want to lazy load
+        const images = document.querySelectorAll('img.myImages');
+        images.forEach(img => {
+            img.setAttribute('loading', 'lazy');
+        });
+    }
+});
