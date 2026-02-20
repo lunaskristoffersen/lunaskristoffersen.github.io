@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-let scrollSpeed = 0.5;
+let scrollSpeed = 2.5;
 
 // Add an event listener for the 'wheel' event
 document.addEventListener('wheel', function(event) {
