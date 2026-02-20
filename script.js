@@ -46,3 +46,21 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
+
+let scrollSpeed = 0.5;
+
+// Add an event listener for the 'wheel' event
+document.addEventListener('wheel', function(event) {
+  // Prevent default scrolling behavior
+  event.preventDefault();
+
+  // Calculate the new scroll position
+  let delta = event.deltaY;
+  let scrollPosition = window.scrollY + (delta * scrollSpeed);
+
+  // Set the new scroll position
+  window.scrollTo({
+    top: scrollPosition,
+    behavior: 'smooth'
+  });
+}, { passive: false });

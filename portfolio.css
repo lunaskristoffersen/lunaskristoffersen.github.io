@@ -4,7 +4,6 @@ html {
  padding:0;
   margin:0 auto 0 auto;
   background-image: linear-gradient(to top, #141C4B ,#080719);  
-  scroll-behavior: smooth;    
 }
 
 .sticky {
