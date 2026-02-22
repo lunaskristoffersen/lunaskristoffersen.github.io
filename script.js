@@ -47,34 +47,3 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-const compressImage = (imageFile, quality) => {
-    return new Promise((resolve, reject) => {
-        const $canvas = document.createElement("canvas");
-        const image = new Image();
-        image.onload = () => {
-            $canvas.width = image.width;
-            $canvas.height = image.height;
-            $canvas.getContext("2d").drawImage(image, 0, 0);
-            $canvas.toBlob(
-                (blob) => {
-                    if (blob === null) {
-                        return reject(blob);
-                    } else {
-                        resolve(blob);
-                    }
-                },
-                "image/jpeg",
-                quality / 100
-            );
-        };
-        image.src = URL.createObjectURL(imageFile);
-    });
-};
-
-const $inputFile = document.querySelector("#myImg");
-    $inputFile.addEventListener("change", async () => {
-        const file = $inputFile.files[0];
-        const blob = await compressImage(file, 50);
-        // Upload the blob with FormData or something similar
-        console.log({ blob });
-    });
